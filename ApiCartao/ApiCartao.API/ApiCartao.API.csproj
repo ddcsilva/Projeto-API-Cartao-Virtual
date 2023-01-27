@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiCartao.Domain\ApiCartao.Domain.csproj" />
+    <ProjectReference Include="..\ApiCartao.Infra\ApiCartao.Infra.csproj" />
+    <ProjectReference Include="..\ApiCartao.Shared\ApiCartao.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
